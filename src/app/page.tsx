@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -24,7 +24,6 @@ export default function Home() {
             ]
           }
           logoSrc="/images/logo.svg"
-          logoAlt="Peak Logo"
           brandName="Peak"
         />
       </div>
